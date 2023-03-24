@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 .home__container {
     row-gap: 7rem;
 }
 
 .home__content {
     grid-template-columns: 116px repeat(2, 1fr);
-    padding-top: 5.5rem;
+    padding-top: 2rem;
     column-gap: 2rem;
     align-items: center;
 }
@@ -25,6 +27,7 @@
 }
 
 .home__title {
+    font-family: 'Satisfy', cursive;
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
 }

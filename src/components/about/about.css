@@ -5,7 +5,7 @@
 }
 
 .about__img {
-    background: url(../../assets//profile.png);
+    background: url(../../assets//about.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -25,7 +25,7 @@
 
 .about__box {
     background-color: var(--container-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 2px solid #D8D8D8;
     border-radius: 0.75rem;
     text-align: center;
     padding: 1rem 1.25rem;

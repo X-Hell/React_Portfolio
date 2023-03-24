@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import "./qualification.css"
 
 const Qualification = () => {
@@ -10,44 +10,44 @@ const Qualification = () => {
 
     return (
         <section className="qualification section">
-                   
+
             <h2 className="section__title">Qualification</h2>
             <span className="section__subtitle">My personal journey</span>
 
             <div className="qualification__container container">
-                
+
                 <div className="qualification__tabs">
-                    <div className={toggleState === 1 ? "qualification__button qualification__active button--flex":
-                     "qualification__button button--flex"}
-                     onClick= {() => toggleTab(1)}
-                     >
+                    <div className={toggleState === 1 ? "qualification__button qualification__active button--flex" :
+                        "qualification__button button--flex"}
+                        onClick={() => toggleTab(1)}
+                    >
                         <i className="uil uil-graduation-cap qualification__icon"></i>
                         Education
                     </div>
 
-                    <div className={toggleState === 2 ? "qualification__button qualification__active button--flex":
-                     "qualification__button button--flex"}
-                     onClick= {() => toggleTab(2)}
-                     >
+                    <div className={toggleState === 2 ? "qualification__button qualification__active button--flex" :
+                        "qualification__button button--flex"}
+                        onClick={() => toggleTab(2)}
+                    >
                         <i className="uil uil-briefcase-alt qualification__icon"></i>
                         Experience
                     </div>
                 </div>
 
                 <div className="qualification__sections">
-                    <div className={toggleState === 1 ? "qualification__content qualification__content-active" 
-                    : "qualification__content"}>
+                    <div className={toggleState === 1 ? "qualification__content qualification__content-active"
+                        : "qualification__content"}>
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Back-end</h3>
+                                <h3 className="qualification__title">ICSE</h3>
 
                                 <span className="qualification__subtitle">
-                                    Oracle - Certification
+                                    St. Augustine's Day School
                                 </span>
 
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i>
-                                    2021
+                                    2018
                                 </div>
                             </div>
 
@@ -66,15 +66,15 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">Master in Compture Science</h3>
+                                <h3 className="qualification__title">ISC</h3>
 
                                 <span className="qualification__subtitle">
-                                    India - UPTU
+                                St. Augustine's Day School
                                 </span>
 
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i>
-                                    2014
+                                    2020
                                 </div>
                             </div>
 
@@ -82,15 +82,41 @@ const Qualification = () => {
 
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Bachelor in Compture Science</h3>
+                                <h3 className="qualification__title">B.Tech CSE</h3>
 
                                 <span className="qualification__subtitle">
-                                    India - MCRPV
+                                    UEM Kolkata
                                 </span>
 
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i>
-                                    2011
+                                    2024
+                                </div>
+
+                            </div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div className={toggleState === 2 ? "qualification__content qualification__content-active"
+                        : "qualification__content"}>
+                        <div className="qualification__data">
+                            <div>
+                                <h3 className="qualification__title">MERN Websites</h3>
+
+                                <span className="qualification__subtitle">
+                                    Self-taught
+                                </span>
+
+                                <div className="qualification__calender">
+                                    <i className="uil uil-calendar-alt"></i>
+                                    2020 - Present
                                 </div>
                             </div>
 
@@ -100,65 +126,40 @@ const Qualification = () => {
                             </div>
                         </div>
 
-                      
-                    </div>
-
-                    <div className={toggleState === 2 ? "qualification__content qualification__content-active" 
-                    : "qualification__content"}>
                         <div className="qualification__data">
+                            <div></div>
+
                             <div>
-                                <h3 className="qualification__title">Project Design</h3>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 className="qualification__title">Mobile Developer</h3>
 
                                 <span className="qualification__subtitle">
-                                    IAMAI - India
+                                    Self-taught
+                                </span>
+
+                                <div className="qualification__calender">
+                                    <i className="uil uil-calendar-alt"></i>
+                                    2021 - Present
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div className="qualification__data">
+                            <div>
+                                <h3 className="qualification__title">Backend Services</h3>
+
+                                <span className="qualification__subtitle">
+                                    Self-taught
                                 </span>
 
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i>
                                     2022 - Present
-                                </div>
-                            </div>
-
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-                        </div>
-
-                    <div className="qualification__data">
-                            <div></div>
-
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-
-                            <div>
-                                <h3 className="qualification__title">Java Backend | Mobile App</h3>
-
-                                <span className="qualification__subtitle">
-                                    NIC - India
-                                </span>
-
-                                <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>
-                                    2019 - Present
-                                </div>
-                            </div>
-
-                        </div>
-
-                    <div className="qualification__data">
-                            <div>
-                                <h3 className="qualification__title">Mobile Developer</h3>
-
-                                <span className="qualification__subtitle">
-                                    Indian Company
-                                </span>
-
-                                <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>
-                                    2014 - 2018
                                 </div>
                             </div>
 

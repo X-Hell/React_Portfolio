@@ -3,6 +3,7 @@ import "./home.css";
 import Social from "./Social";
 import Data from "./Data";
 import ScrollDown from "./ScrollDown";
+import Spline from '@splinetool/react-spline';
 
 const Home = () => {
     
@@ -11,13 +12,10 @@ const Home = () => {
             <div className="home__container container grid">
 
                 <div className="home__content grid">
-                    <Social />
-
-                    <div className="home__img"></div>
-
+                    <Social /><Spline scene="https://prod.spline.design/7SwWKg9ersefuzMA/scene.splinecode"/>
                     <Data />
+                    
                 </div>
-
                 <ScrollDown />
             </div>
         </section>

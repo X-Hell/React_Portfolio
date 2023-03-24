@@ -6,7 +6,7 @@
 
 .services__content {
     position: relative;
-    border: 3px solid #16FF00;
+    border: 3px solid #D8D8D8;
     background-color: var(--container-color);
     padding: 3rem 0 2rem 2.5rem;
     border-radius: 1rem;

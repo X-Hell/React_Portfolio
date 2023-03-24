@@ -46,12 +46,12 @@ const Contact = () => {
                     </div>
 
                     <div className="contact__card">
-                        <i className='bx bxl-messenger contact__card-icon'></i>
+                        <i className='bx bxl-twitter contact__card-icon'></i>
 
-                        <h3 className="contact__card-title">Messanger</h3>
-                        <span className="contact__card-data">fb.com/avanishinfo</span>
+                        <h3 className="contact__card-title">Twitter</h3>
+                        <span className="contact__card-data">@Manish__shaw</span>
 
-                        <a href="" className="contact__button">Write me{" "}
+                        <a href="https://twitter.com/Manish__shaw" className="contact__button" target={'_blank'} rel="noreferrer">Write me{" "}
                         <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                         </a>
                     </div>
@@ -65,17 +65,17 @@ const Contact = () => {
                     <div className='contact__form-div'>
                           <label className="contact__form-tag">Name</label>
                           <input type='text' name='name' className='contact__form-input'
-                          placeholder='Insert your name'/>
+                          placeholder='Type your name'/>
                     </div>
                     <div className='contact__form-div'>
                           <label className="contact__form-tag">Mail</label>
                           <input type='email' name='email' className='contact__form-input'
-                          placeholder='Insert your email'/>
+                          placeholder='Type your email'/>
                     </div>
                     <div className='contact__form-div contact__form-area'>
                           <label className="contact__form-tag">Project</label>
                           <textarea name="project" cols="30" rows="10"
-                          className='contact__form-input' placeholder='Write your project'></textarea>
+                          className='contact__form-input' placeholder='Describe your project'></textarea>
                     </div>
 
                     

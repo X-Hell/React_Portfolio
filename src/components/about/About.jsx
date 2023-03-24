@@ -1,9 +1,8 @@
 import React from 'react';
 import "./about.css";
-import AboutImg from "../../assets/about.jpg";
 import CV from "../../assets/CV.pdf"
 import Info from './Info';
-import Spline from '@splinetool/react-spline';
+
 
 const About = () => {
     return (
@@ -14,7 +13,6 @@ const About = () => {
 
         <div className="about__container container grid">
         <div className='about__img'></div>
-            {/*  */}
 
             <div className="about__data">
                 <Info />
