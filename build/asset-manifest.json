@@ -1,28 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.c382b450.css",
-    "main.js": "/static/js/main.92be95f3.js",
+    "main.css": "/static/css/main.342ee1a6.css",
+    "main.js": "/static/js/main.ccb8c479.js",
     "static/js/227.88bfb16e.chunk.js": "/static/js/227.88bfb16e.chunk.js",
     "static/js/526.e57e1977.chunk.js": "/static/js/526.e57e1977.chunk.js",
     "static/js/232.6ba99e35.chunk.js": "/static/js/232.6ba99e35.chunk.js",
     "static/js/237.6c25e0f3.chunk.js": "/static/js/237.6c25e0f3.chunk.js",
-    "static/media/about.jpg": "/static/media/about.fe07706e4895276139f4.jpg",
-    "static/media/profile.png": "/static/media/profile.86799d0f8ae6adcfebd0.png",
     "static/media/CV.pdf": "/static/media/CV.92277ff82c84b05497b7.pdf",
-    "static/media/work2.jpg": "/static/media/work2.e52a0c2981a6c11ba468.jpg",
-    "static/media/work4.jpg": "/static/media/work4.aee985961b648f4df1f2.jpg",
-    "static/media/work1.jpg": "/static/media/work1.321b4ae3bf404acdfdc6.jpg",
-    "static/media/work3.jpg": "/static/media/work3.135e9065694bc13dc31d.jpg",
+    "static/media/about.jpg": "/static/media/about.29642f3632594200acc1.jpg",
+    "static/media/work2.jpg": "/static/media/work2.76cb95dd89aa097943b8.jpg",
+    "static/media/work3.jpg": "/static/media/work3.73b364a50d3f627eda16.jpg",
     "index.html": "/index.html",
-    "main.c382b450.css.map": "/static/css/main.c382b450.css.map",
-    "main.92be95f3.js.map": "/static/js/main.92be95f3.js.map",
+    "main.342ee1a6.css.map": "/static/css/main.342ee1a6.css.map",
+    "main.ccb8c479.js.map": "/static/js/main.ccb8c479.js.map",
     "227.88bfb16e.chunk.js.map": "/static/js/227.88bfb16e.chunk.js.map",
     "526.e57e1977.chunk.js.map": "/static/js/526.e57e1977.chunk.js.map",
     "232.6ba99e35.chunk.js.map": "/static/js/232.6ba99e35.chunk.js.map",
     "237.6c25e0f3.chunk.js.map": "/static/js/237.6c25e0f3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c382b450.css",
-    "static/js/main.92be95f3.js"
+    "static/css/main.342ee1a6.css",
+    "static/js/main.ccb8c479.js"
   ]
 }
